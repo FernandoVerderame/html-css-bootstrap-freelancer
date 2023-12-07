@@ -4,7 +4,7 @@ header {
     background-color: #2C3E50;
 }
 
-header .col-4 {
+header .col-12 {
     height: 50px;
 }
 
@@ -24,13 +24,11 @@ header .col-4 {
     min-height: 1000px;
 }
 
-#portfolio .col-5 {
-    height: 100px;
+#portfolio .col-12 {
+    min-height: 100px;
 }
 
-#portfolio .col-12 {
-    height: 350px;
-}
+
 
 /* About */ 
 #about {
