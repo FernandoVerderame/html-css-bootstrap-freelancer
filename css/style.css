@@ -31,3 +31,13 @@ header .col-4 {
 #portfolio .col-12 {
     height: 350px;
 }
+
+/* About */ 
+#about {
+    min-height: 500px;
+    background-color: #1ABC9C;
+}
+
+#about .col-12 {
+    min-height: 50px;
+}
