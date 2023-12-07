@@ -18,3 +18,16 @@ header .col-4 {
 #jumbotron .col-11 {
     height: 400px;
 }
+
+/* Portfolio */
+#portfolio {
+    min-height: 1000px;
+}
+
+#portfolio .col-5 {
+    height: 100px;
+}
+
+#portfolio .col-12 {
+    height: 350px;
+}
