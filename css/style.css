@@ -7,3 +7,14 @@ header {
 header .col-4 {
     height: 50px;
 }
+
+/* Main */
+/* Jumbotron */
+#jumbotron {
+    height: 500px;
+    background-color: #1ABC9C;
+}
+
+#jumbotron .col-11 {
+    height: 400px;
+}
