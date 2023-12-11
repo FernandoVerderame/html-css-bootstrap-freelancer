@@ -1,11 +1,14 @@
 /* Header */
 header {
-    height: 100px;
     background-color: #2C3E50;
 }
 
-header .col-12 {
-    height: 50px;
+.navbar-toggler {
+    border: 1px solid white;
+}
+
+.navbar-toggler-icon {
+    color: gray;
 }
 
 /* Main */
