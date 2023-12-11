@@ -14,12 +14,31 @@ header {
 /* Main */
 /* Jumbotron */
 #jumbotron {
-    height: 500px;
+    height: 450px;
     background-color: #1ABC9C;
 }
 
 #jumbotron .col-11 {
     height: 400px;
+}
+
+#jumbotron img {
+    width: 200px;
+}
+
+#jumbotron .card {
+    background-color: #1ABC9C;
+}
+
+#jumbotron .list-group-item {
+    background-color: #1ABC9C;
+}
+
+.divider .bar-divider {
+    height: 4px;
+    width: 70px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
 }
 
 /* Portfolio */
