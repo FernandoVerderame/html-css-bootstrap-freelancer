@@ -50,6 +50,7 @@ header {
 
 /* Portfolio */
 #portfolio {
+    padding-bottom: 50px;
 }
 
 #portfolio h2 {
@@ -66,12 +67,16 @@ header {
 
 /* About */ 
 #about {
-    min-height: 500px;
     background-color: #1ABC9C;
 }
 
 #about .col-12 {
     min-height: 50px;
+}
+
+#about .btn {
+    background-color: #1ABC9C;
+    border-color: white;
 }
 
 /* Footer */

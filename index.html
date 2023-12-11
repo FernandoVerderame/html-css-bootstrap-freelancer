@@ -48,7 +48,7 @@
         <!-- Jumbotron -->
         <section id="jumbotron">
             <div class="container h-100">
-                <div class="row h-100 d-flex justify-content-center align-items-center">
+                <div class="row h-100 justify-content-center align-items-center">
                     <div class="col-11">
                         <div class="card align-items-center border border-0" style="width: auto;">
                             <img src="img/avatar.svg" class="card-img-top" alt="jumbotron">
@@ -71,12 +71,14 @@
 
         <!-- Portfolio -->
         <section id="portfolio">
-            <div class="container">
-                <h2 class="mt-5 mb-3 text-center">PORTFOLIO</h2>
-                <div class="divider d-flex align-items-center justify-content-center mb-3">
-                    <div class="bar-divider"></div> <i class="fa-solid fa-star fs-3 px-2"></i> <div class="bar-divider"></div>
+            <div class="container h-100">
+                <div class="mt-5">
+                    <h2 class="mb-3 text-center">PORTFOLIO</h2>
+                    <div class="divider d-flex align-items-center justify-content-center mb-3">
+                        <div class="bar-divider"></div> <i class="fa-solid fa-star fs-3 px-2"></i> <div class="bar-divider"></div>
+                    </div>
                 </div>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="row h-100 row-cols-1 row-cols-md-2 row-cols-lg-3">
                     <div class="col">
                         <div class="card">
                             <img src="img/cabin.png" class="card-img" alt="cabin">
@@ -112,12 +114,21 @@
 
         <!-- About -->
         <section id="about">
-            <div class="container h-100">
-                <div class="row h-100 d-flex justify-content-center">
-                    <div class="col-12 border border-danger text-center">ABOUT</div>
-                    <div class="col-12 col-md-5 border border-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint porro fugit deserunt eligendi facilis fuga maxime, minus, voluptas, molestiae architecto labore et tenetur eos adipisci eveniet in nulla tempora velit!</div>
-                    <div class="col-12 col-md-5 border border-danger">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum exercitationem quasi blanditiis ab molestiae dolores expedita iste inventore esse optio incidunt officia itaque quis, id enim voluptate eos? Rerum, dignissimos.</div>
-                    <div class="col-12 border border-danger text-center">BUTTON</div>                                        
+            <div class="container">
+                <div class="pt-5">
+                    <h2 class="text-white text-center">ABOUT</h2>
+                    <div class="divider d-flex align-items-center justify-content-center mb-3">
+                        <div class="bar-divider"></div> <i class="fa-solid fa-star text-white fs-3 px-2"></i> <div class="bar-divider"></div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-5 text-white"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint porro fugit deserunt eligendi facilis fuga maxime, minus, voluptas, molestiae architecto labore et tenetur eos adipisci eveniet in nulla tempora velit!</p></div>
+                    <div class="col-10 col-md-5 text-white"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum exercitationem quasi blanditiis ab molestiae dolores expedita iste inventore esse optio incidunt officia itaque quis, id enim voluptate eos? Rerum, dignissimos.</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary d-flex gap-2 my-4"><i class="fa-solid fa-download"></i> Download</button>
+                    </div>
                 </div>
             </div>
         </section>
