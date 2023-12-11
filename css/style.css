@@ -4,6 +4,10 @@ img {
     display: inline;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* Utils */
 .bar-divider {
     height: 4px;
@@ -109,12 +113,29 @@ form .btn {
 
 /* Footer */
 #footer-top {
-    min-height: 300px;
     background-color: #3A546D;
 }
 
-#footer-top .col-12 {
-    min-height: 50px;
+#footer-top .card {
+    background-color: #3A546D;
+}
+
+#footer-top ul {
+    padding-left: 0;
+}
+
+.social a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding-top: 10px;
+}
+
+#footer-top .freelance {
+    color: #1ABC9C;
+    text-decoration: none;
 }
 
 #footer-bottom {
@@ -122,5 +143,9 @@ form .btn {
 }
 
 #footer-bottom .col-12 {
-    min-height: 50px;
+    min-height: 100px;
+}
+
+#footer-bottom span {
+    font-size: 12px;
 }
