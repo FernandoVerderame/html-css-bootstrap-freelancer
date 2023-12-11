@@ -1,3 +1,17 @@
+/* Generics */
+img {
+    width: 100%;
+    display: inline;
+}
+
+/* Utils */
+.bar-divider {
+    height: 4px;
+    width: 70px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+
 /* Header */
 header {
     background-color: #2C3E50;
@@ -34,23 +48,21 @@ header {
     background-color: #1ABC9C;
 }
 
-.divider .bar-divider {
-    height: 4px;
-    width: 70px;
-    background-color: white;
-    border-radius: 10px 10px 10px 10px;
-}
-
 /* Portfolio */
 #portfolio {
-    min-height: 1000px;
 }
 
-#portfolio .col-12 {
-    min-height: 100px;
+#portfolio h2 {
+    color: #2C3E50;
 }
 
+#portfolio .fa-star {
+    color: #2C3E50;
+}
 
+#portfolio .bar-divider {
+    background-color: #2C3E50;
+}
 
 /* About */ 
 #about {
